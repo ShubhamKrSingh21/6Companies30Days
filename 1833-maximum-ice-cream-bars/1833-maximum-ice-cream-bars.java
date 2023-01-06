@@ -9,6 +9,8 @@ class Solution {
                 c++;
                 coins-=costs[i];
             }
+            else 
+                break;
         }
         return c;
     }
